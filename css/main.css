@@ -55,7 +55,7 @@ h1{
     line-height: 1.25;
     margin: 0;
     color: white;
-    margin-bottom: 25px;
+    margin-bottom: 23px;
     /* text-align: center; */
 }
 .emphasis{
@@ -69,7 +69,7 @@ p{
     color: hsla(0, 0%, 100%, 0.75);
     font-size: .85rem;
     font-weight: 400;
-    margin-bottom: 57px;
+    margin-bottom: 60px;
     padding-right: 70px;
     line-height: 1.75;
 }
@@ -87,13 +87,17 @@ p{
     border-radius: 6px;
 }
 
-
+/* flex item */
 .header-image{
     /* width: 488px; */
     height: 402px;
     background-image: 
-    linear-gradient(rgba(170, 92, 219, .5), rgba(170, 92, 219, .5)), url('../images/image-header-desktop.jpg');
+    linear-gradient(rgba(170, 92, 219, .7), rgba(170, 92, 219, .7)), 
+    url('../images/image-header-desktop.jpg');
     background-size: contain;
+    /* filter:contrast(200%); */
+    /* filter: opacity(90%); */
+    /* filter: saturate(1.7); */
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
     margin: 0;
@@ -102,20 +106,13 @@ p{
     flex-basis: 488px;
 }
 
-/* flex item
-.header-image{
-    background: hsl(277, 64%, 61%);
-    flex: 1;
-    flex-basis: 488px;
-} */
-
 /* wraps all text - h1, p, and stats */
 .text-wrapper{
     height: 402px;
     background-color:hsl(244, 38%, 16%);
     flex-basis: 516px;
     margin-left: 2px;
-    padding: 60px;
+    padding: 65px;
 }
 
 /* wraps only the three stats at bottom */
@@ -131,14 +128,15 @@ p{
     color: hsla(0, 0%, 100%, 0.6);
     font-family: lexend deca, sans-serif;
     text-transform: uppercase;
-    font-size: .85rem;
+    font-size: .75rem;
+    font-weight: 100;
 }
 
 .stats-heading{
     color: white;
-    font-family: lexend deca, sans serif;
-    font-weight: 400;
-    font-size: 1.5rem;
+    font-family: inter, sans serif;
+    font-weight: 700;
+    font-size: 1.4rem;
     margin:0;
 }
 
