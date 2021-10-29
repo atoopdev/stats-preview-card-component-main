@@ -45,6 +45,7 @@ body{
     width: 100%;
     min-height: 100vh;
     font-family: inter, sans-serif;
+    /* letter-spacing: 1px; */
     line-height: 1.5;
     background-color: hsl(233, 47%, 7%);
 }
@@ -91,13 +92,19 @@ p{
 .header-image{
     /* width: 488px; */
     height: 402px;
-    background-image: 
+    /* background-image: 
     linear-gradient(rgba(170, 92, 219, .7), rgba(170, 92, 219, .7)), 
-    url('../images/image-header-desktop.jpg');
-    background-size: contain;
-    /* filter:contrast(200%); */
-    /* filter: opacity(90%); */
-    /* filter: saturate(1.7); */
+    url('../images/image-header-desktop.jpg'); */
+
+    /* background-blend-mode:screen;
+    background-image: url('../images/image-header-desktop.jpg');
+    background-color: hsl(277, 64%, 61%); */
+
+    background-blend-mode: overlay;
+    background-image: url('../images/image-header-desktop.jpg'),
+    linear-gradient(#aa5cdb, #000000);
+
+    background-size: cover;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
     margin: 0;
