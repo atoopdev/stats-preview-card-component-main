@@ -55,7 +55,7 @@ h1{
     line-height: 1.25;
     margin: 0;
     color: white;
-    margin-bottom: 23px;
+    margin-bottom: 20px;
     /* text-align: center; */
 }
 .emphasis{
@@ -112,7 +112,11 @@ p{
     background-color:hsl(244, 38%, 16%);
     flex-basis: 516px;
     margin-left: 2px;
-    padding: 65px;
+    /* padding: 65px; */
+    padding-top: 65px;
+    padding-bottom: 65px;
+    padding-left: 70px;
+    padding-right: 60px;
 }
 
 /* wraps only the three stats at bottom */
@@ -120,7 +124,7 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-right:70px;
+    padding-right:65px;
 }
 
 /* each stat */
