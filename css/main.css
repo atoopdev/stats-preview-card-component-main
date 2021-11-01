@@ -81,7 +81,7 @@ p{
     border: 2px solid black;
     width: 1010px;
     height: 402px;
-    margin: 333px auto;
+    margin: 175px auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
@@ -111,14 +111,16 @@ p{
     margin: 0;
     padding: 0;
     flex: 1;
-    flex-basis: 488px;
+    /* flex-basis: 488px; */
+    flex: 0 1 488px;
 }
 
 /* wraps all text - h1, p, and stats */
 .text-wrapper{
     height: 402px;
     background-color:hsl(244, 38%, 16%);
-    flex-basis: 516px;
+    /* flex-basis: 516px; */
+    flex: 0 1 516px;
     margin-left: 2px;
     /* padding: 65px; */
     padding-top: 65px;
@@ -136,21 +138,25 @@ p{
 }
 
 /* each stat */
+
+.caps{
+    text-transform: uppercase;
+}
 .stats{
     color: hsla(0, 0%, 100%, 0.6);
     font-family: lexend deca, sans-serif;
-    text-transform: uppercase;
     font-size: .75rem;
     font-weight: 100;
 }
 
 .stats-heading{
-    color: white;
+    color: hsla(0, 0%, 100%, 0.6);
     font-family: inter, sans serif;
     font-weight: 700;
     font-size: 1.4rem;
     margin:0;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { font-size: 11px; text-align: center; color: hsla(0, 0%, 100%, 0.75);}
+.attribution a { color: hsl(277, 64%, 61%); }
+
