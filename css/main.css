@@ -94,17 +94,11 @@ p{
     /* width: 488px; */
     height: 402px;
    
-    /* this was tricky for me to figure out. Found solution via a tip on slack channel that led me to - https://alligator.io/css/exploring-blend-modes/ which had the info I needed, but I couldn't figure it out. I then googled "background-blend-mode to see more examples where i then found https://css-tricks.com/almanac/properties/b/background-blend-mode/ and it was more clear that multiply would darken the picture */
     background-image: url('../images/image-header-desktop.jpg');
+
+/* this was tricky for me to figure out. Found solution via a tip on slack channel that led me to - https://alligator.io/css/exploring-blend-modes/ which had the info I needed, but I couldn't figure it out. I then googled "background-blend-mode to see more examples where i then found https://css-tricks.com/almanac/properties/b/background-blend-mode/ and it was more clear that multiply would darken the picture */
     background-color: hsl(277, 64%, 61%);
     background-blend-mode:multiply;
-
-    /* semi working */
-    /* background-blend-mode: overlay;
-    background-image: url('../images/image-header-desktop.jpg'),
-    linear-gradient(#aa5cdb, #000000); */
-
-
 
     background-size: cover;
     border-top-right-radius: 6px;
@@ -181,6 +175,7 @@ p{
 
     .header-image{
         border: 2px solid green;
+        background-image: url('../images/image-header-mobile.jpg');
     }
 
     .text-wrapper{
