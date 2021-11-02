@@ -157,33 +157,50 @@ p{
 
 @media screen and (max-width:1028px){
     .content-wrapper{
-        border: 5px solid white;
-        width: 350px;
-        height: 800px;
+        /* border: 5px solid white; */
+        width: 330px;
+        height: 785px;
         margin: 100px auto;
         flex-direction:column;
     }
 
     h1{
-        font-size: 1.75rem;
+        font-size: 1.76rem;
+        padding: 0;
+        margin: 0;
+        line-height: 1.2;
     }
 
     p{
-        padding: 0;
-        margin: 20px;
+        padding-top: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        margin: 0;
+        font-size: .9rem;
+        line-height: 1.8;
     }
 
     .header-image{
-        border: 2px solid green;
+        /* border: 2px solid green; */
         background-image: url('../images/image-header-mobile.jpg');
+        /* width: 330px; */
+        background-size: contain;
+        background-repeat: no-repeat;
+        flex: 0 0 239px;
+        border-top-right-radius: 7px;
+        border-top-left-radius: 7px;
+        
     }
 
     .text-wrapper{
-        border: 2px solid red;
+        /* border: 2px solid red; */
         text-align: center;
-        padding-top: 30px;
+        padding-top: 40px;
         padding-left: 20px;
         padding-right: 20px;
+        padding-bottom: 30px;;
+        flex: 1 0 auto;
     }
     .stats-wrapper{
         border: 2px solid yellow;
