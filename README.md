@@ -32,9 +32,7 @@ images\mobile_preview.jpg
 
 
 ### Links
-[coming soon]
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://atoopdev.github.io/stats-preview-card-component-main/
 
 ## My process
 This is my second project with Frontend Mentor. I am using these challenges to really make sure I am learning CSS and not just doing tutorial follow alongs. In this challenge I made use of Perfect Pixel (for the first time) to make it easier to determine design dimensions. I currently work big to small - big key design features get developed first like the content wrapper, sub wrappers, and images. I usually wrap elements in colorful borders to assist with troubleshooting. After that I focus on smaller details like colors, exact font sizing, spacing and margins. I then remove borders and refine any final outiers to the best of my ability.
